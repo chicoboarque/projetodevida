@@ -76,12 +76,27 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.aba-conteudo.ativo{
+.aba-conteudo.ativo
+{
     display: block;
 }
 
-.aba-conteudo{
+.aba-conteudo
+{
     display: none;
+}
+
+.aba-conteudo-titulo-principal
+{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario
+{
+    text-align: center;
+    color: var(--amarelo);
+    text-transform: uppercase;
 }
 
 
